@@ -1,0 +1,2134 @@
+{
+  "Aceh": [
+    [
+      "Kabupaten Aceh Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Barat Daya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Besar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Jaya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Singkil",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Tamiang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Tenggara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Aceh Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bener Meriah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bireuen",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gayo Lues",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nagan Raya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pidie",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pidie Jaya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Simeulue",
+      "kabupaten"
+    ],
+    [
+      "Kota Banda Aceh",
+      "kota"
+    ],
+    [
+      "Kota Langsa",
+      "kota"
+    ],
+    [
+      "Kota Lhokseumawe",
+      "kota"
+    ],
+    [
+      "Kota Sabang",
+      "kota"
+    ],
+    [
+      "Kota Subulussalam",
+      "kota"
+    ]
+  ],
+  "Sumatera Utara": [
+    [
+      "Kabupaten Asahan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Batu Bara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Dairi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Deli Serdang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Humbang Hasundutan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Karo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Labuhanbatu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Labuhanbatu Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Labuhanbatu Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Langkat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mandailing Natal",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nias",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nias Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nias Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nias Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Padang Lawas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Padang Lawas Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pakpak Bharat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Samosir",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Serdang Bedagai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Simalungun",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tapanuli Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tapanuli Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tapanuli Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Toba",
+      "kabupaten"
+    ],
+    [
+      "Kota Binjai",
+      "kota"
+    ],
+    [
+      "Kota Gunungsitoli",
+      "kota"
+    ],
+    [
+      "Kota Medan",
+      "kota"
+    ],
+    [
+      "Kota Padangsidimpuan",
+      "kota"
+    ],
+    [
+      "Kota Pematangsiantar",
+      "kota"
+    ],
+    [
+      "Kota Sibolga",
+      "kota"
+    ],
+    [
+      "Kota Tanjungbalai",
+      "kota"
+    ],
+    [
+      "Kota Tebing Tinggi",
+      "kota"
+    ]
+  ],
+  "Sumatera Barat": [
+    [
+      "Kabupaten Agam",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Dharmasraya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Mentawai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lima Puluh Kota",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Padang Pariaman",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pasaman",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pasaman Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pesisir Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sijunjung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Solok",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Solok Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanah Datar",
+      "kabupaten"
+    ],
+    [
+      "Kota Bukittinggi",
+      "kota"
+    ],
+    [
+      "Kota Padang",
+      "kota"
+    ],
+    [
+      "Kota Padang Panjang",
+      "kota"
+    ],
+    [
+      "Kota Pariaman",
+      "kota"
+    ],
+    [
+      "Kota Payakumbuh",
+      "kota"
+    ],
+    [
+      "Kota Sawahlunto",
+      "kota"
+    ],
+    [
+      "Kota Solok",
+      "kota"
+    ]
+  ],
+  "Riau": [
+    [
+      "Kabupaten Bengkalis",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Indragiri Hilir",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Indragiri Hulu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kampar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Meranti",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kuantan Singingi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pelalawan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Rokan Hilir",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Rokan Hulu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Siak",
+      "kabupaten"
+    ],
+    [
+      "Kota Dumai",
+      "kota"
+    ],
+    [
+      "Kota Pekanbaru",
+      "kota"
+    ]
+  ],
+  "Jambi": [
+    [
+      "Kabupaten Batanghari",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bungo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kerinci",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Merangin",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Muaro Jambi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sarolangun",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanjung Jabung Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanjung Jabung Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tebo",
+      "kabupaten"
+    ],
+    [
+      "Kota Jambi",
+      "kota"
+    ],
+    [
+      "Kota Sungai Penuh",
+      "kota"
+    ]
+  ],
+  "Sumatera Selatan": [
+    [
+      "Kabupaten Banyuasin",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Empat Lawang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lahat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Muara Enim",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Musi Banyuasin",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Musi Rawas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Musi Rawas Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ogan Ilir",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ogan Komering Ilir",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ogan Komering Ulu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ogan Komering Ulu Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ogan Komering Ulu Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Penukal Abab Lematang Ilir",
+      "kabupaten"
+    ],
+    [
+      "Kota Lubuklinggau",
+      "kota"
+    ],
+    [
+      "Kota Pagar Alam",
+      "kota"
+    ],
+    [
+      "Kota Palembang",
+      "kota"
+    ],
+    [
+      "Kota Prabumulih",
+      "kota"
+    ]
+  ],
+  "Bengkulu": [
+    [
+      "Kabupaten Bengkulu Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bengkulu Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bengkulu Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kaur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepahiang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lebong",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mukomuko",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Rejang Lebong",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Seluma",
+      "kabupaten"
+    ],
+    [
+      "Kota Bengkulu",
+      "kota"
+    ]
+  ],
+  "Lampung": [
+    [
+      "Kabupaten Lampung Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lampung Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lampung Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lampung Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lampung Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mesuji",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pesawaran",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pesisir Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pringsewu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanggamus",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tulang Bawang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tulang Bawang Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Way Kanan",
+      "kabupaten"
+    ],
+    [
+      "Kota Bandar Lampung",
+      "kota"
+    ],
+    [
+      "Kota Metro",
+      "kota"
+    ]
+  ],
+  "Kepulauan Bangka Belitung": [
+    [
+      "Kabupaten Bangka",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bangka Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bangka Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bangka Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Belitung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Belitung Timur",
+      "kabupaten"
+    ],
+    [
+      "Kota Pangkalpinang",
+      "kota"
+    ]
+  ],
+  "Kepulauan Riau": [
+    [
+      "Kabupaten Bintan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Karimun",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Anambas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lingga",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Natuna",
+      "kabupaten"
+    ],
+    [
+      "Kota Batam",
+      "kota"
+    ],
+    [
+      "Kota Tanjungpinang",
+      "kota"
+    ]
+  ],
+  "DKI Jakarta": [
+    [
+      "Kabupaten Administrasi Kepulauan Seribu",
+      "kabupaten"
+    ],
+    [
+      "Kota Administrasi Jakarta Barat",
+      "kota"
+    ],
+    [
+      "Kota Administrasi Jakarta Pusat",
+      "kota"
+    ],
+    [
+      "Kota Administrasi Jakarta Selatan",
+      "kota"
+    ],
+    [
+      "Kota Administrasi Jakarta Timur",
+      "kota"
+    ],
+    [
+      "Kota Administrasi Jakarta Utara",
+      "kota"
+    ]
+  ],
+  "Jawa Barat": [
+    [
+      "Kabupaten Bandung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bandung Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bekasi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bogor",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ciamis",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Cianjur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Cirebon",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Garut",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Indramayu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Karawang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kuningan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Majalengka",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pangandaran",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Purwakarta",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Subang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sukabumi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumedang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tasikmalaya",
+      "kabupaten"
+    ],
+    [
+      "Kota Bandung",
+      "kota"
+    ],
+    [
+      "Kota Banjar",
+      "kota"
+    ],
+    [
+      "Kota Bekasi",
+      "kota"
+    ],
+    [
+      "Kota Bogor",
+      "kota"
+    ],
+    [
+      "Kota Cimahi",
+      "kota"
+    ],
+    [
+      "Kota Cirebon",
+      "kota"
+    ],
+    [
+      "Kota Depok",
+      "kota"
+    ],
+    [
+      "Kota Sukabumi",
+      "kota"
+    ],
+    [
+      "Kota Tasikmalaya",
+      "kota"
+    ]
+  ],
+  "Jawa Tengah": [
+    [
+      "Kabupaten Banjarnegara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Banyumas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Batang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Blora",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Boyolali",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Brebes",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Cilacap",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Demak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Grobogan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jepara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Karanganyar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kebumen",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kendal",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Klaten",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kudus",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Magelang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pati",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pekalongan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pemalang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Purbalingga",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Purworejo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Rembang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Semarang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sragen",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sukoharjo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tegal",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Temanggung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Wonogiri",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Wonosobo",
+      "kabupaten"
+    ],
+    [
+      "Kota Magelang",
+      "kota"
+    ],
+    [
+      "Kota Pekalongan",
+      "kota"
+    ],
+    [
+      "Kota Salatiga",
+      "kota"
+    ],
+    [
+      "Kota Semarang",
+      "kota"
+    ],
+    [
+      "Kota Surakarta",
+      "kota"
+    ],
+    [
+      "Kota Tegal",
+      "kota"
+    ]
+  ],
+  "DI Yogyakarta": [
+    [
+      "Kabupaten Bantul",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gunungkidul",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kulon Progo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sleman",
+      "kabupaten"
+    ],
+    [
+      "Kota Yogyakarta",
+      "kota"
+    ]
+  ],
+  "Jawa Timur": [
+    [
+      "Kabupaten Bangkalan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Banyuwangi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Blitar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bojonegoro",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bondowoso",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gresik",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jember",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jombang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kediri",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lamongan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lumajang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Madiun",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Magetan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Malang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mojokerto",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nganjuk",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ngawi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pacitan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pamekasan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pasuruan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ponorogo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Probolinggo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sampang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sidoarjo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Situbondo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumenep",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Trenggalek",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tuban",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tulungagung",
+      "kabupaten"
+    ],
+    [
+      "Kota Batu",
+      "kota"
+    ],
+    [
+      "Kota Blitar",
+      "kota"
+    ],
+    [
+      "Kota Kediri",
+      "kota"
+    ],
+    [
+      "Kota Madiun",
+      "kota"
+    ],
+    [
+      "Kota Malang",
+      "kota"
+    ],
+    [
+      "Kota Mojokerto",
+      "kota"
+    ],
+    [
+      "Kota Pasuruan",
+      "kota"
+    ],
+    [
+      "Kota Probolinggo",
+      "kota"
+    ],
+    [
+      "Kota Surabaya",
+      "kota"
+    ]
+  ],
+  "Banten": [
+    [
+      "Kabupaten Lebak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pandeglang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Serang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tangerang",
+      "kabupaten"
+    ],
+    [
+      "Kota Cilegon",
+      "kota"
+    ],
+    [
+      "Kota Serang",
+      "kota"
+    ],
+    [
+      "Kota Tangerang",
+      "kota"
+    ],
+    [
+      "Kota Tangerang Selatan",
+      "kota"
+    ]
+  ],
+  "Bali": [
+    [
+      "Kabupaten Badung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bangli",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buleleng",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gianyar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jembrana",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Karangasem",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Klungkung",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tabanan",
+      "kabupaten"
+    ],
+    [
+      "Kota Denpasar",
+      "kota"
+    ]
+  ],
+  "Nusa Tenggara Barat": [
+    [
+      "Kabupaten Bima",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Dompu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lombok Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lombok Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lombok Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lombok Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumbawa",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumbawa Barat",
+      "kabupaten"
+    ],
+    [
+      "Kota Bima",
+      "kota"
+    ],
+    [
+      "Kota Mataram",
+      "kota"
+    ]
+  ],
+  "Nusa Tenggara Timur": [
+    [
+      "Kabupaten Alor",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Belu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ende",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Flores Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kupang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lembata",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Malaka",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Manggarai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Manggarai Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Manggarai Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nagekeo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ngada",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Rote Ndao",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sabu Raijua",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sikka",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumba Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumba Barat Daya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumba Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sumba Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Timor Tengah Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Timor Tengah Utara",
+      "kabupaten"
+    ],
+    [
+      "Kota Kupang",
+      "kota"
+    ]
+  ],
+  "Kalimantan Barat": [
+    [
+      "Kabupaten Bengkayang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kapuas Hulu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kayong Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Ketapang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kubu Raya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Landak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Melawi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mempawah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sambas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sanggau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sekadau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sintang",
+      "kabupaten"
+    ],
+    [
+      "Kota Pontianak",
+      "kota"
+    ],
+    [
+      "Kota Singkawang",
+      "kota"
+    ]
+  ],
+  "Kalimantan Tengah": [
+    [
+      "Kabupaten Barito Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Barito Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Barito Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gunung Mas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kapuas",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Katingan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kotawaringin Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kotawaringin Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lamandau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Murung Raya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pulang Pisau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sukamara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Seruyan",
+      "kabupaten"
+    ],
+    [
+      "Kota Palangka Raya",
+      "kota"
+    ]
+  ],
+  "Kalimantan Selatan": [
+    [
+      "Kabupaten Balangan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Banjar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Barito Kuala",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Hulu Sungai Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Hulu Sungai Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Hulu Sungai Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kotabaru",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tabalong",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanah Bumbu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tanah Laut",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tapin",
+      "kabupaten"
+    ],
+    [
+      "Kota Banjarbaru",
+      "kota"
+    ],
+    [
+      "Kota Banjarmasin",
+      "kota"
+    ]
+  ],
+  "Kalimantan Timur": [
+    [
+      "Kabupaten Berau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kutai Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kutai Kartanegara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kutai Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mahakam Ulu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Paser",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Penajam Paser Utara",
+      "kabupaten"
+    ],
+    [
+      "Kota Balikpapan",
+      "kota"
+    ],
+    [
+      "Kota Bontang",
+      "kota"
+    ],
+    [
+      "Kota Samarinda",
+      "kota"
+    ]
+  ],
+  "Kalimantan Utara": [
+    [
+      "Kabupaten Bulungan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Malinau",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nunukan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tana Tidung",
+      "kabupaten"
+    ],
+    [
+      "Kota Tarakan",
+      "kota"
+    ]
+  ],
+  "Sulawesi Utara": [
+    [
+      "Kabupaten Bolaang Mongondow",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bolaang Mongondow Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bolaang Mongondow Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bolaang Mongondow Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Sangihe",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Siau Tagulandang Biaro",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Talaud",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Minahasa",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Minahasa Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Minahasa Tenggara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Minahasa Utara",
+      "kabupaten"
+    ],
+    [
+      "Kota Bitung",
+      "kota"
+    ],
+    [
+      "Kota Kotamobagu",
+      "kota"
+    ],
+    [
+      "Kota Manado",
+      "kota"
+    ],
+    [
+      "Kota Tomohon",
+      "kota"
+    ]
+  ],
+  "Sulawesi Tengah": [
+    [
+      "Kabupaten Banggai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Banggai Kepulauan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Banggai Laut",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buol",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Donggala",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Morowali",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Morowali Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Parigi Moutong",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Poso",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sigi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tojo Una-Una",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tolitoli",
+      "kabupaten"
+    ],
+    [
+      "Kota Palu",
+      "kota"
+    ]
+  ],
+  "Sulawesi Selatan": [
+    [
+      "Kabupaten Bantaeng",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Barru",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bone",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bulukumba",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Enrekang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gowa",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jeneponto",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Selayar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Luwu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Luwu Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Luwu Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Maros",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pangkajene dan Kepulauan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pinrang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sidenreng Rappang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sinjai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Soppeng",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Takalar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tana Toraja",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Toraja Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Wajo",
+      "kabupaten"
+    ],
+    [
+      "Kota Makassar",
+      "kota"
+    ],
+    [
+      "Kota Palopo",
+      "kota"
+    ],
+    [
+      "Kota Parepare",
+      "kota"
+    ]
+  ],
+  "Sulawesi Tenggara": [
+    [
+      "Kabupaten Bombana",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buton",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buton Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buton Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buton Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kolaka",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kolaka Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kolaka Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Konawe",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Konawe Kepulauan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Konawe Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Konawe Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Muna",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Muna Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Wakatobi",
+      "kabupaten"
+    ],
+    [
+      "Kota Baubau",
+      "kota"
+    ],
+    [
+      "Kota Kendari",
+      "kota"
+    ]
+  ],
+  "Gorontalo": [
+    [
+      "Kabupaten Boalemo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Bone Bolango",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gorontalo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Gorontalo Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pohuwato",
+      "kabupaten"
+    ],
+    [
+      "Kota Gorontalo",
+      "kota"
+    ]
+  ],
+  "Sulawesi Barat": [
+    [
+      "Kabupaten Majene",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mamasa",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mamuju",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mamuju Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pasangkayu",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Polewali Mandar",
+      "kabupaten"
+    ]
+  ],
+  "Maluku": [
+    [
+      "Kabupaten Buru",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Buru Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Aru",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Tanimbar",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Maluku Barat Daya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Maluku Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Maluku Tenggara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Seram Bagian Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Seram Bagian Timur",
+      "kabupaten"
+    ],
+    [
+      "Kota Ambon",
+      "kota"
+    ],
+    [
+      "Kota Tual",
+      "kota"
+    ]
+  ],
+  "Maluku Utara": [
+    [
+      "Kabupaten Halmahera Barat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Halmahera Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Halmahera Timur",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Halmahera Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Halmahera Utara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Sula",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pulau Morotai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pulau Taliabu",
+      "kabupaten"
+    ],
+    [
+      "Kota Ternate",
+      "kota"
+    ],
+    [
+      "Kota Tidore Kepulauan",
+      "kota"
+    ]
+  ],
+  "Papua": [
+    [
+      "Kabupaten Biak Numfor",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Jayapura",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Keerom",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kepulauan Yapen",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mamberamo Raya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sarmi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Supiori",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Waropen",
+      "kabupaten"
+    ],
+    [
+      "Kota Jayapura",
+      "kota"
+    ]
+  ],
+  "Papua Barat": [
+    [
+      "Kabupaten Fakfak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Kaimana",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Manokwari",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Manokwari Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pegunungan Arfak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Teluk Bintuni",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Teluk Wondama",
+      "kabupaten"
+    ]
+  ],
+  "Papua Selatan": [
+    [
+      "Kabupaten Asmat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Boven Digoel",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mappi",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Merauke",
+      "kabupaten"
+    ]
+  ],
+  "Papua Tengah": [
+    [
+      "Kabupaten Deiyai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Dogiyai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Intan Jaya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mimika",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nabire",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Paniai",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Puncak",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Puncak Jaya",
+      "kabupaten"
+    ]
+  ],
+  "Papua Pegunungan": [
+    [
+      "Kabupaten Jayawijaya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Lanny Jaya",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Mamberamo Tengah",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Nduga",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Pegunungan Bintang",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tolikara",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Yalimo",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Yahukimo",
+      "kabupaten"
+    ]
+  ],
+  "Papua Barat Daya": [
+    [
+      "Kabupaten Maybrat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Raja Ampat",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sorong",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Sorong Selatan",
+      "kabupaten"
+    ],
+    [
+      "Kabupaten Tambrauw",
+      "kabupaten"
+    ],
+    [
+      "Kota Sorong",
+      "kota"
+    ]
+  ]
+}

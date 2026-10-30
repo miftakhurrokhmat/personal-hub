@@ -17,9 +17,20 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        // User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
+
+        // 1. Jalankan Seeder Master 38 Provinsi & 514 Kota/Kabupaten
+        $this->call([
+            RegionSeeder::class,
         ]);
+
+        // 2. Akun Test (opsional, bisa dibiarkan atau dikomentari jika sudah ada filament user)
+        // User::factory()->create([
+        //     'name' => 'Admin Test',
+        //     'email' => 'admin@example.com',
+        // ]);
     }
 }
