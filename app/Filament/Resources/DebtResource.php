@@ -27,6 +27,11 @@ class DebtResource extends Resource
         return in_array($role, ['all', 'manajer']);
     }
 
+    public static function canAccess(): bool
+    {
+        return static::shouldRegisterNavigation();
+    }
+
     public static function form(Form $form): Form
     {
         // return $form
