@@ -3,15 +3,17 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\IncomeResource\Pages;
-use App\Filament\Resources\IncomeResource\RelationManagers;
+// use App\Filament\Resources\IncomeResource\RelationManagers;
 use App\Models\Income;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Enums\FiltersLayout;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+// use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Carbon\Carbon;
 
 class IncomeResource extends Resource
 {
@@ -169,12 +171,41 @@ class IncomeResource extends Resource
         //         ]),
         //     ]);
 
+        // return $table
+        //     ->columns([
+        //         Tables\Columns\TextColumn::make('title')->label('Deskripsi')->searchable(),
+        //         Tables\Columns\TextColumn::make('client.name')->label('Klien/Instansi')->default('-'),
+        //         Tables\Columns\BadgeColumn::make('source')->label('Sumber'),
+        //         Tables\Columns\TextColumn::make('amount')->money('IDR')->label('Nominal'),
+        //         Tables\Columns\BadgeColumn::make('payment_status')
+        //             ->label('Status')
+        //             ->colors([
+        //                 'gray' => 'draft',
+        //                 'danger' => 'billed',
+        //                 'success' => 'paid',
+        //             ]),
+        //         Tables\Columns\TextColumn::make('due_date')->date()->label('Jatuh Tempo')->sortable(),
+        //     ])
+        //     ->filters([
+        //         Tables\Filters\Filter::make('belum_lunas')
+        //             ->label('Tampilkan Tagihan Belum Dibayar')
+        //             ->query(fn(Builder $query): Builder => $query->where('payment_status', 'billed')),
+        //     ]);
+
         return $table
+            ->defaultSort('due_date', 'desc')
             ->columns([
-                Tables\Columns\TextColumn::make('title')->label('Deskripsi')->searchable(),
-                Tables\Columns\TextColumn::make('client.name')->label('Klien/Instansi')->default('-'),
-                Tables\Columns\BadgeColumn::make('source')->label('Sumber'),
-                Tables\Columns\TextColumn::make('amount')->money('IDR')->label('Nominal'),
+                Tables\Columns\TextColumn::make('title')
+                    ->label('Deskripsi')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('client.name')
+                    ->label('Klien/Instansi')
+                    ->default('-'),
+                Tables\Columns\BadgeColumn::make('source')
+                    ->label('Sumber'),
+                Tables\Columns\TextColumn::make('amount')
+                    ->money('IDR')
+                    ->label('Nominal'),
                 Tables\Columns\BadgeColumn::make('payment_status')
                     ->label('Status')
                     ->colors([
@@ -182,13 +213,59 @@ class IncomeResource extends Resource
                         'danger' => 'billed',
                         'success' => 'paid',
                     ]),
-                Tables\Columns\TextColumn::make('due_date')->date()->label('Jatuh Tempo')->sortable(),
+                Tables\Columns\TextColumn::make('due_date')
+                    ->date()
+                    ->label('Jatuh Tempo')
+                    ->sortable(),
             ])
             ->filters([
+                // 1. Filter Tahun - Bulan berdasarkan kolom 'due_date'
+                Tables\Filters\SelectFilter::make('year_month')
+                    ->label('Tahun - Bulan')
+                    ->placeholder('Semua Periode')
+                    ->options(function () {
+                        return Income::query()
+                            ->whereNotNull('due_date')
+                            ->selectRaw("DATE_FORMAT(due_date, '%Y-%m') as ym")
+                            ->distinct()
+                            ->orderByDesc('ym')
+                            ->pluck('ym')
+                            ->mapWithKeys(function ($ym) {
+                                $label = Carbon::createFromFormat('Y-m', $ym)->translatedFormat('Y - F');
+                                return [$ym => $label]; // Contoh: "2026 - November"
+                            })
+                            ->toArray();
+                    })
+                    ->query(function (Builder $query, array $data): Builder {
+                        if (empty($data['value'])) {
+                            return $query;
+                        }
+
+                        [$year, $month] = explode('-', $data['value']);
+
+                        return $query
+                            ->whereYear('due_date', $year)
+                            ->whereMonth('due_date', $month);
+                    }),
+
+                // 2. Filter Sumber Pemasukan (otomatis mengambil daftar unik dari kolom 'source')
+                Tables\Filters\SelectFilter::make('source')
+                    ->label('Sumber')
+                    ->placeholder('Semua Sumber')
+                    ->options(function () {
+                        return Income::query()
+                            ->whereNotNull('source')
+                            ->distinct()
+                            ->pluck('source', 'source')
+                            ->toArray();
+                    }),
+
+                // 3. Filter Bawaan: Tagihan Belum Dibayar
                 Tables\Filters\Filter::make('belum_lunas')
                     ->label('Tampilkan Tagihan Belum Dibayar')
                     ->query(fn(Builder $query): Builder => $query->where('payment_status', 'billed')),
-            ]);
+            ], layout: FiltersLayout::AboveContent)
+            ->filtersFormColumns(3);
     }
 
     public static function getRelations(): array
