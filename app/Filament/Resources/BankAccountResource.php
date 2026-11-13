@@ -7,6 +7,7 @@ use App\Filament\Resources\BankAccountResource\RelationManagers;
 use App\Models\BankAccount;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -137,20 +138,71 @@ class BankAccountResource extends Resource
         //         ]),
         //     ]);
 
+        // return $table
+        //     ->columns([
+        //         Tables\Columns\TextColumn::make('name')->label('Nama Rekening')->searchable(),
+        //         Tables\Columns\BadgeColumn::make('type')->label('Tipe'),
+        //         Tables\Columns\TextColumn::make('account_number')->label('No. Rekening')->default('-'),
+        //         Tables\Columns\TextColumn::make('phone_number')->label('No. HP')->default('-'),
+        //         Tables\Columns\TextColumn::make('balance')->money('IDR')->label('Saldo'),
+        //     ]);
+
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('name')->label('Nama Rekening')->searchable(),
-                Tables\Columns\BadgeColumn::make('type')->label('Tipe'),
-                Tables\Columns\TextColumn::make('account_number')->label('No. Rekening')->default('-'),
-                Tables\Columns\TextColumn::make('phone_number')->label('No. HP')->default('-'),
-                Tables\Columns\TextColumn::make('balance')->money('IDR')->label('Saldo'),
+                Tables\Columns\TextColumn::make('name')
+                    ->label('Nama Rekening')
+                    ->searchable(),
+                Tables\Columns\BadgeColumn::make('type')
+                    ->label('Tipe'),
+                Tables\Columns\TextColumn::make('account_number')
+                    ->label('No. Rekening')
+                    ->default('-'),
+                Tables\Columns\TextColumn::make('phone_number')
+                    ->label('No. HP')
+                    ->default('-'),
+                Tables\Columns\TextColumn::make('balance')
+                    ->money('IDR')
+                    ->label('Saldo Awal / Tercatat')
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('latestBalance.recorded_date')
+                    ->label('Tgl. Catat Saldo')
+                    ->date('d M Y')
+                    ->default('-'),
+            ])
+            ->actions([
+                Tables\Actions\EditAction::make(),
+
+                // Aksi Cepat Update Saldo (Otomatis memicu penyimpanan ke bank_account_balances)
+                Tables\Actions\Action::make('updateBalance')
+                    ->label('Update Saldo')
+                    ->icon('heroicon-o-banknotes')
+                    ->color('warning')
+                    ->form([
+                        Forms\Components\TextInput::make('balance')
+                            ->label('Nominal Saldo Baru (Rp)')
+                            ->numeric()
+                            ->prefix('Rp')
+                            ->default(fn(BankAccount $record) => $record->balance)
+                            ->required(),
+                    ])
+                    ->action(function (BankAccount $record, array $data): void {
+                        $record->update([
+                            'balance' => $data['balance'],
+                        ]);
+
+                        Notification::make()
+                            ->title('Saldo Diperbarui')
+                            ->body('Perubahan saldo berhasil dicatat ke riwayat tanggal ' . now()->format('d M Y') . '.')
+                            ->success()
+                            ->send();
+                    }),
             ]);
     }
 
     public static function getRelations(): array
     {
         return [
-            //
+            RelationManagers\BalancesRelationManager::class,
         ];
     }
 
