@@ -193,7 +193,7 @@ class IncomeResource extends Resource
         //     ]);
 
         return $table
-            ->defaultSort('due_date', 'desc')
+            ->defaultSort('created_at', 'desc')
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->label('Deskripsi')
@@ -206,6 +206,9 @@ class IncomeResource extends Resource
                 Tables\Columns\TextColumn::make('amount')
                     ->money('IDR')
                     ->label('Nominal'),
+                Tables\Columns\TextColumn::make('bankAccount.name')
+                    ->label('Rekening / Kas')
+                    ->default('-'),
                 Tables\Columns\BadgeColumn::make('payment_status')
                     ->label('Status')
                     ->colors([
@@ -219,20 +222,20 @@ class IncomeResource extends Resource
                     ->sortable(),
             ])
             ->filters([
-                // 1. Filter Tahun - Bulan berdasarkan kolom 'due_date'
+                // 1. Filter Tahun - Bulan
                 Tables\Filters\SelectFilter::make('year_month')
                     ->label('Tahun - Bulan')
                     ->placeholder('Semua Periode')
                     ->options(function () {
                         return Income::query()
-                            ->whereNotNull('due_date')
-                            ->selectRaw("DATE_FORMAT(due_date, '%Y-%m') as ym")
+                            ->selectRaw("DATE_FORMAT(COALESCE(due_date, created_at), '%Y-%m') as ym")
                             ->distinct()
                             ->orderByDesc('ym')
                             ->pluck('ym')
+                            ->filter()
                             ->mapWithKeys(function ($ym) {
                                 $label = Carbon::createFromFormat('Y-m', $ym)->translatedFormat('Y - F');
-                                return [$ym => $label]; // Contoh: "2026 - November"
+                                return [$ym => $label];
                             })
                             ->toArray();
                     })
@@ -241,14 +244,18 @@ class IncomeResource extends Resource
                             return $query;
                         }
 
-                        [$year, $month] = explode('-', $data['value']);
-
-                        return $query
-                            ->whereYear('due_date', $year)
-                            ->whereMonth('due_date', $month);
+                        return $query->whereRaw("DATE_FORMAT(COALESCE(due_date, created_at), '%Y-%m') = ?", [$data['value']]);
                     }),
 
-                // 2. Filter Sumber Pemasukan (otomatis mengambil daftar unik dari kolom 'source')
+                // 2. Filter Bank / Rekening Masuk
+                Tables\Filters\SelectFilter::make('bank_account_id')
+                    ->label('Rekening / Bank')
+                    ->placeholder('Semua Rekening')
+                    ->relationship('bankAccount', 'name')
+                    ->searchable()
+                    ->preload(),
+
+                // 3. Filter Sumber Pendapatan
                 Tables\Filters\SelectFilter::make('source')
                     ->label('Sumber')
                     ->placeholder('Semua Sumber')
@@ -260,12 +267,15 @@ class IncomeResource extends Resource
                             ->toArray();
                     }),
 
-                // 3. Filter Bawaan: Tagihan Belum Dibayar
+                // 4. Filter Tagihan Belum Dibayar
                 Tables\Filters\Filter::make('belum_lunas')
-                    ->label('Tampilkan Tagihan Belum Dibayar')
+                    ->label('Tagihan Belum Dibayar')
                     ->query(fn(Builder $query): Builder => $query->where('payment_status', 'billed')),
             ], layout: FiltersLayout::AboveContent)
-            ->filtersFormColumns(3);
+            ->filtersFormColumns(4)
+            ->actions([
+                Tables\Actions\EditAction::make(),
+            ]);
     }
 
     public static function getRelations(): array
