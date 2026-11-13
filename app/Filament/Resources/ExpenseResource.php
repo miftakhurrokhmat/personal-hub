@@ -67,6 +67,7 @@ class ExpenseResource extends Resource
                                 'rumah_tangga' => 'Keluarga & Rumah Tangga',
                                 'peralatan' => 'Peralatan / Gadget',
                                 'sosial_warga' => 'Sosial Warga & Desa',
+                                'transfer' => 'Transfer / Pindah Rekening',
                                 'lainnya' => 'Lainnya',
                             ])
                             ->required()

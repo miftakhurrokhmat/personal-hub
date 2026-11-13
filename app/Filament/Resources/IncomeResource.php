@@ -72,6 +72,7 @@ class IncomeResource extends Resource
                                 'trainer' => 'Trainer / Workshop',
                                 'proyek_it' => 'Proyek IT / Dev',
                                 'hibah' => 'Hibah Penelitian / Pengabdian',
+                                'transfer' => 'Transfer / Pindah Rekening',
                                 'lainnya' => 'Lainnya',
                             ])
                             ->required()

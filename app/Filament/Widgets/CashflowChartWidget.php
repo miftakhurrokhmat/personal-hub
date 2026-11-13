@@ -27,10 +27,18 @@ class CashflowChartWidget extends ChartWidget
             $incomeData[] = (float) Income::whereYear('received_at', $date->year)
                 ->whereMonth('received_at', $date->month)
                 ->where('payment_status', 'paid')
+                ->where(function ($query) {
+                    $query->whereNull('source')
+                        ->orWhere('source', '!=', 'transfer');
+                })
                 ->sum('amount');
 
             $expenseData[] = (float) Expense::whereYear('spent_at', $date->year)
                 ->whereMonth('spent_at', $date->month)
+                ->where(function ($query) {
+                    $query->whereNull('category')
+                        ->orWhere('category', '!=', 'transfer');
+                })
                 ->sum('amount');
         }
 

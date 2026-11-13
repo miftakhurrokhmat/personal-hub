@@ -28,16 +28,33 @@ class FinancialHealthOverview extends BaseWidget
         $realizedIncome = Income::whereYear('received_at', $currentYear)
             ->whereMonth('received_at', $currentMonth)
             ->where('payment_status', 'paid')
+            ->where(function ($query) {
+                $query->whereNull('source')
+                    ->orWhere('source', '!=', 'transfer');
+            })
             ->sum('amount');
 
         // Pengeluaran bulan ini
         $realizedExpense = Expense::whereYear('spent_at', $currentYear)
             ->whereMonth('spent_at', $currentMonth)
+            ->where(function ($query) {
+                $query->whereNull('category')
+                    ->orWhere('category', '!=', 'transfer');
+            })
             ->sum('amount');
 
-        // Tagihan invoice yang ditagih + piutang perorangan yang belum lunas
-        $unpaidIncomes = Income::where('payment_status', 'billed')->sum('amount');
-        $receivables = Debt::where('type', 'piutang_orang')->where('status', '!=', 'settled')->sum('total_amount');
+        // Tagihan invoice yang ditagih (kecuali mutasi antar-rekening) + piutang perorangan yang belum lunas
+        $unpaidIncomes = Income::where('payment_status', 'billed')
+            ->where(function ($query) {
+                $query->whereNull('source')
+                    ->orWhere('source', '!=', 'transfer');
+            })
+            ->sum('amount');
+
+        $receivables = Debt::where('type', 'piutang_orang')
+            ->where('status', '!=', 'settled')
+            ->sum('total_amount');
+
         $totalTagihanTertahan = $unpaidIncomes + $receivables;
 
         $incomeProgress = round(($realizedIncome / max($targetIncome, 1)) * 100);
@@ -46,8 +63,8 @@ class FinancialHealthOverview extends BaseWidget
         $isOverExpense = $realizedExpense >= $limitExpense;
         $isWarningExpense = $expenseProgress >= 80;
         $expenseColor = $isOverExpense ? 'danger' : ($isWarningExpense ? 'warning' : 'success');
-        $expenseDesc = $isOverExpense 
-            ? 'REM AKTIF: Menembus batas!' 
+        $expenseDesc = $isOverExpense
+            ? 'REM AKTIF: Menembus batas!'
             : ($isWarningExpense ? "Perhatian: {$expenseProgress}% terpakai" : "Aman ({$expenseProgress}%)");
 
         return [
